@@ -98,7 +98,24 @@ export default function DocumentPreview({ doc, onBack, onProceedToDownload }: Do
             {doc.github_preview_url ? (
               <div className="relative rounded-xl overflow-hidden border border-slate-200 shadow-inner bg-slate-100">
                 <iframe
-                  src={doc.github_preview_url}
+                  src={(() => {
+                    const url = doc.github_preview_url || '';
+                    if (!url) return '';
+                    if (url.includes('docs.google.com/gview')) return url;
+                    
+                    let rawUrl = url;
+                    if (url.includes('github.com') && url.includes('/blob/')) {
+                      rawUrl = url
+                        .replace('github.com', 'raw.githubusercontent.com')
+                        .replace('/blob/', '/');
+                    }
+                    
+                    // Direct pdf or raw github file preview
+                    if (rawUrl.toLowerCase().endsWith('.pdf') || rawUrl.includes('raw.githubusercontent.com')) {
+                      return `https://docs.google.com/gview?url=${encodeURIComponent(rawUrl)}&embedded=true`;
+                    }
+                    return url;
+                  })()}
                   className="w-full h-[600px] border-none bg-white relative z-10"
                   referrerPolicy="no-referrer"
                   title={doc.title}
