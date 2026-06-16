@@ -176,7 +176,7 @@ export default function App() {
                       رأس مالك عِلمُك.. تحضير كفء، مصلح ورصين في متناول يديك!
                     </h1>
                     <p className="text-xs sm:text-sm text-blue-100/80 leading-relaxed font-sans">
-                      منصة <strong>الناجح</strong> توفر شروح نصوص لغة عربية متميزة، دروس، سلاسل تمارين لولبية، وفروض مصلحة بالتفصيل لثلاث مستويات حاسمة بالمناهج التونسية. جميع محتوياتنا بصيغة PDF قابلة للتحميل والقراءة المباشرة مجاناً مع حماية تامة.
+                      منصة <strong>Devoiratna (دوفاراتنا)</strong> توفر شروح نصوص لغة عربية متميزة، دروس، سلاسل تمارين لولبية، وفروض مصلحة بالتفصيل لثلاث مستويات حاسمة بالمناهج التونسية. جميع محتوياتنا بصيغة PDF قابلة للتحميل والقراءة المباشرة مجاناً مع حماية تامة.
                     </p>
                   </div>
                 </div>
@@ -418,7 +418,7 @@ export default function App() {
       {/* 3. PLATFORM GLOBAL FOOTER */}
       <footer className="mt-20 border-t border-slate-200 bg-white py-8 select-none" dir="rtl">
         <div className="max-w-7xl mx-auto px-4 text-center space-y-3">
-          <p className="text-sm font-black text-slate-950">الناجح - منصة بيداغوجية تونسية متكاملة لعام 2026</p>
+          <p className="text-sm font-black text-slate-950">Devoiratna (دوفاراتنا) - منصة بيداغوجية تونسية متكاملة لعام 2026</p>
           <p className="text-xs text-slate-400 max-w-xl mx-auto leading-relaxed">
             تم الإعداد الأكاديمي والتحقق المصلّح لمجمل سلاسل التمارين وفروض المراقبة بالتطابق مع البرنامج المنظم لوزارة التربية بالجمهورية التونسية لمساندة أولادنا وبناتنا مجاناً وبأعلى جودة.
           </p>

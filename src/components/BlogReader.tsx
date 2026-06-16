@@ -71,7 +71,7 @@ export default function BlogReader({ blogs, selectedLevel }: BlogReaderProps) {
         />
 
         <div className="mt-8 pt-6 border-t border-slate-200 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-400 gap-4 font-medium">
-          <p>جميع حقوق الطبع والنشر محفوظة لمنصة الناجح التربوية © 2026</p>
+          <p>جميع حقوق الطبع والنشر محفوظة لمنصة Devoiratna التربوية © 2026</p>
           <button
             onClick={() => setActiveBlogId(null)}
             className="text-[#1a3a5f] hover:underline flex items-center gap-1 font-bold"

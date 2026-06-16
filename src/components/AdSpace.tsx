@@ -42,8 +42,8 @@ export default function AdSpace({ type }: AdSpaceProps) {
         إشهار <Info className="w-3 h-3" />
       </span>
       <div className="text-center px-2 flex flex-col items-center">
-        <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white mb-2 font-bold text-lg">الناجح</div>
-        <p className="text-xs font-bold text-slate-800 mb-1">حمّل تطبيق الناجح على هاتفك المحمول</p>
+        <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white mb-2 font-black text-xs text-center leading-tight">دوفاراتنا</div>
+        <p className="text-xs font-bold text-slate-800 mb-1">حمّل تطبيق Devoiratna على هاتفك المحمول</p>
         <p className="text-[11px] text-slate-500 mb-3">شروح فورية للأستاذ الآلي بالذكاء الاصطناعي وبنك أسئلة متكامل</p>
         <button className="bg-blue-600 hover:bg-blue-700 text-white text-[11px] font-medium py-1.5 px-4 rounded transition-all shadow-sm">
           تنزيل التطبيق مجاناً
