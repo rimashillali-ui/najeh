@@ -1,0 +1,6 @@
+{
+  "name": "الناجح - المنصة التعليمية التونسية",
+  "description": "منصة تعليمية تونسية حديثة توفر الدروس، السلاسل والالفروض مع الإصلاح النموذجي لتلاميذ السنة التاسعة أساسي، الأولى ثانوي، والثانية علوم.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
